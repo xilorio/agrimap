@@ -1,0 +1,108 @@
+#mapid {
+  height: 105vh;
+  z-index: 1;
+  width: 100vw;
+}
+
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  background-color: #ebebeb;
+  display: flex;
+}
+
+.login-div {
+  position: absolute;
+  z-index: 99;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 271px;
+  height: 276px;
+  padding: 15px 18px 19px 14px;
+  border-radius: 25px;
+  background-color: rgba(224, 224, 224, 0.521);
+
+  box-shadow: 7px 7px 20px #cbced1, -7px -7px 20px #fff;
+}
+
+.title {
+  text-align: center;
+  font-size: 24px;
+  padding-top: 1px;
+  padding-bottom: 8px;
+  letter-spacing: 4px;
+}
+
+.sub-title {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 5px;
+  letter-spacing: 4px;
+}
+
+.fields {
+  width: 100%;
+  padding: 28px 5px 5px 5px;
+}
+
+.fields p{
+  font-size: 10px;
+  text-align: center;
+}
+
+.fields input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 14px;
+  color: #555;
+  padding: 10px 6px 10px 4px;
+}
+
+.username,
+.password {
+  margin-bottom: 15px;
+  border-radius: 14px;
+  box-shadow: inset 3px 4px 19px #cbced1, inset -4px -8px 8px #fff;
+}
+
+.fields svg {
+  height: 16px;
+  margin: 0px 8px -3px 18px;
+}
+
+.signin-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 38px;
+  border-radius: 10px;
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Lato", sans-serif;
+  color: #fff;
+  text-align: center;
+  background-color: #02c8db;
+  box-shadow: -4px 3px 8px #b1b1b1, -3px -3px 8px #fff;
+  transition: all 0.5s;
+}
+
+.signin-button:hover {
+  background-color: #50e5b9;
+}
+
+.signin-button:active {
+  background-color: #88ef9e;
+}
